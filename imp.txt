@@ -1,3 +1,4 @@
 py -m venv venv 
 py -m uvicorn main:app
 .\venv\Scripts\Activate.ps1  (ps1 for powershell)
+pip freeze > requirements.txt
